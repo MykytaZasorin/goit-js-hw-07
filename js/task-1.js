@@ -10,5 +10,3 @@ for (const category of totalCategories) {
   console.log(`Elements: ${totalElements}`);
 }
 
-
-
