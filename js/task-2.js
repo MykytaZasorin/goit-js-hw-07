@@ -29,4 +29,4 @@ const imageList = document.querySelector('.gallery');
 
 const imageStack = images.map(({ url, alt }) => `<li class="image-item"><img src=${url} alt=${alt} width="360" height="300"></li>`).join("");
 
-imageList.insertAdjacentHTML('beforeend', imageStack);
+imageList.insertAdjacentHTML('afterbegin', imageStack);
